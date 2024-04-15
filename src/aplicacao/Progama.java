@@ -41,7 +41,7 @@ public class Progama {
 			Date dataContratual = sdf.parse(edd.next());
 			System.out.print("VALOR POR HORA:R$");
 			double valorPorHora = edd.nextDouble();
-			System.out.println("HORA:");
+			System.out.print("HORA:");
 			int hora = edd.nextInt();
 			ContratoHora contrato = new ContratoHora(dataContratual, valorPorHora, hora);
 			trabalhador.addContrato(contrato);
